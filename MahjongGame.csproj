@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{827EC5E1-1983-4CC5-815C-9AB0BAF7B587}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MahjongGame</RootNamespace>
+    <AssemblyName>MahjongGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HelpWindow_SetImages.xaml.cs">
+      <DependentUpon>HelpWindow_SetImages.xaml</DependentUpon>
+    </Compile>
+    <Page Include="HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpWindow_Backgrounds.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpWindow_Structure.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HelpWindow_Backgrounds.xaml.cs">
+      <DependentUpon>HelpWindow_Backgrounds.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HelpWindow_Structure.xaml.cs">
+      <DependentUpon>HelpWindow_Structure.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="NewGameSettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpWindow_SetImages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NewGameSettingsWindow.xaml.cs">
+      <DependentUpon>NewGameSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\MahjongGame.exe.config" />
+    <None Include="MahjongImages\Game of Thrones.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\antiqueSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\antiqueSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\antiqueSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\antiqueSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\antiqueSet\faceDown.png" />
+    <Resource Include="MahjongImages\antiqueSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\antiqueSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\antiqueSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\antiqueSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\antiqueSet\fullClassicSet.jpg" />
+    <Resource Include="MahjongImages\antiqueSet\man\man1.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man2.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man3.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man4.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man5.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man6.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man7.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man8.png" />
+    <Resource Include="MahjongImages\antiqueSet\man\man9.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\_pin3.png" />
+    <Resource Include="MahjongImages\antiqueSet\pin\_pin9.png" />
+    <Resource Include="MahjongImages\antiqueSet\red-doras\red-dora-bamboo5.png" />
+    <Resource Include="MahjongImages\antiqueSet\red-doras\red-dora-man5.png" />
+    <Resource Include="MahjongImages\antiqueSet\red-doras\red-dora-pin5.png" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Autumn.ico" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Winter.gif" />
+    <Resource Include="MahjongImages\antiqueSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\antiqueSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\antiqueSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\antiqueSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\antiqueSet\winds\windWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\classicSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\classicSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\classicSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\classicSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\classicSet\faceDown.png" />
+    <Resource Include="MahjongImages\classicSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\classicSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\classicSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\classicSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\classicSet\fullClassicSet.jpg" />
+    <Resource Include="MahjongImages\classicSet\man\man1.png" />
+    <Resource Include="MahjongImages\classicSet\man\man2.png" />
+    <Resource Include="MahjongImages\classicSet\man\man3.png" />
+    <Resource Include="MahjongImages\classicSet\man\man4.png" />
+    <Resource Include="MahjongImages\classicSet\man\man5.png" />
+    <Resource Include="MahjongImages\classicSet\man\man6.png" />
+    <Resource Include="MahjongImages\classicSet\man\man7.png" />
+    <Resource Include="MahjongImages\classicSet\man\man8.png" />
+    <Resource Include="MahjongImages\classicSet\man\man9.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\classicSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\classicSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\classicSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\classicSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\classicSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\classicSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\classicSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\classicSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\classicSet\winds\windWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\faceDown.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\fullClassicSet.jpg" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man1.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man2.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man3.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man4.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man5.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man6.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man7.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man8.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\man\man9.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\winds\windWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MahjongImages\Logo_Game_of_Thrones.png" />
+    <Resource Include="MahjongImages\preview.png" />
+    <Resource Include="MahjongImages\Transparent_flag_with_question_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MahjongImages\venetianBridgesStructureSample.png" />
+    <Resource Include="MahjongImages\bridgeStructureSample.png" />
+    <Resource Include="MahjongImages\pyramidStructureSample.png" />
+    <Resource Include="MahjongImages\squareStructureSample.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\faceDown.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\fullClassicWoodenSet.jpg" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man1.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man2.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man3.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man4.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man5.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man6.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man7.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man8.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\man\man9.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\winds\windWest.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\faceDown.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\fullChinaPlayingCardSet.jpg" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man1.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man2.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man3.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man4.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man5.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man6.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man7.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man8.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\man\man9.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\winds\windWest.png" />
+    <Resource Include="MahjongImages\Backgrounds\Chinese_Parchment.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Chinese_Bamboo.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Game_of_thrones.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Green_Place.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Lake_and_pagoda.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Leaves.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Rest_Place.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Standard.jpg" />
+    <Resource Include="MahjongImages\chinesePlayingCardSet\Tiles_ChinaPlayingCard-Full.png" />
+    <Resource Include="MahjongImages\classicWoodenSet\Tiles_ClassicWooden-Full.png" />
+    <Resource Include="MahjongImages\gameOfThronesSet\Tiles_GOT-Full.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo1.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo2.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo3.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo4.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo5.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo6.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo7.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo8.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\bamboo\bamboo9.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\dragons\dragonGreen.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\dragons\dragonRed.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\dragons\dragonWhite.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\faceDown.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\flowers\Bamboo.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\flowers\Chrysanthemum.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\flowers\Orchid.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\flowers\Plum.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man1.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man2.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man3.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man4.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man5.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man6.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man7.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man8.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\man\man9.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin1.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin2.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin3.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin4.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin5.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin6.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin7.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin8.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\pin\pin9.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\seasons\Autumn.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\seasons\Spring.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\seasons\Summer.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\seasons\Winter.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\Tiles_SpainPlayingCard-Full.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\winds\windEast.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\winds\windNorth.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\winds\windWest.png" />
+    <Resource Include="MahjongImages\points.jpg" />
+    <Resource Include="MahjongImages\classicSet\Tiles_Classic-Full.png" />
+    <Resource Include="MahjongImages\antiqueSet\Tiles_Antique-Full.png" />
+    <Resource Include="MahjongImages\Backgrounds\Fantastic_Winter.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Nature.jpg" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\winds\windSouth.png" />
+    <Resource Include="MahjongImages\spanishPlayingCardSet\fullSpainPlayingCardSet.png" />
+    <Content Include="bin\Debug\MahjongGame.exe" />
+    <Content Include="bin\Debug\MahjongGame.pdb" />
+    <Resource Include="MahjongImages\Backgrounds\Cartoon_Bridge.jpg" />
+    <Resource Include="MahjongImages\Backgrounds\Chinese_Paper.jpg" />
+    <Content Include="MahjongSounds\Legend.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

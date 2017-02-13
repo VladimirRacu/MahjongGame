@@ -1,0 +1,1299 @@
+<?xml version="1.0"?>
+<ArrayOfOneTile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OneTile>
+    <BtnName>bt0</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>100</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt1</BtnName>
+    <State>1</State>
+    <ShortPath>amboo1</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo1.png</PathToImage>
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt2</BtnName>
+    <State>2</State>
+    <ShortPath>flowers</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\flowers\Chrysanthemum.png</PathToImage>
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt3</BtnName>
+    <State>2</State>
+    <ShortPath>nWhite</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonWhite.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt4</BtnName>
+    <State>2</State>
+    <ShortPath>amboo3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo3.png</PathToImage>
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt5</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin8</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin8.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt6</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt7</BtnName>
+    <State>1</State>
+    <ShortPath>n\pin6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin6.png</PathToImage>
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt8</BtnName>
+    <State>1</State>
+    <ShortPath>amboo3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo3.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt9</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt10</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt11</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1080</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt12</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>190</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt13</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>190</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt14</BtnName>
+    <State>1</State>
+    <ShortPath>n\pin9</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin9.png</PathToImage>
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>280</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt15</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>280</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt16</BtnName>
+    <State>1</State>
+    <ShortPath>n\pin2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin2.png</PathToImage>
+    <CoordonateLeftFromMargin>100</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt17</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin4.png</PathToImage>
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt18</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin8</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin8.png</PathToImage>
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt19</BtnName>
+    <State>2</State>
+    <ShortPath>amboo3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo3.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt20</BtnName>
+    <State>2</State>
+    <ShortPath>dNorth</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windNorth.png</PathToImage>
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt21</BtnName>
+    <State>1</State>
+    <ShortPath>dNorth</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windNorth.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt22</BtnName>
+    <State>0</State>
+    <ShortPath>nWhite</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonWhite.png</PathToImage>
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt23</BtnName>
+    <State>1</State>
+    <ShortPath>n\pin7</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin7.png</PathToImage>
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt24</BtnName>
+    <State>2</State>
+    <ShortPath>nGreen</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonGreen.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt25</BtnName>
+    <State>2</State>
+    <ShortPath>amboo5</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo5.png</PathToImage>
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt26</BtnName>
+    <State>1</State>
+    <ShortPath>n\man1</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man1.png</PathToImage>
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt27</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1080</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt28</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>460</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt29</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>460</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt30</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>550</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt31</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>550</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt32</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>100</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt33</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt34</BtnName>
+    <State>1</State>
+    <ShortPath>amboo4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo4.png</PathToImage>
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt35</BtnName>
+    <State>2</State>
+    <ShortPath>amboo2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo2.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt36</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin2.png</PathToImage>
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt37</BtnName>
+    <State>2</State>
+    <ShortPath>ndEast</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windEast.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt38</BtnName>
+    <State>2</State>
+    <ShortPath>amboo5</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo5.png</PathToImage>
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt39</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin3.png</PathToImage>
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt40</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin4.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt41</BtnName>
+    <State>1</State>
+    <ShortPath>amboo6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo6.png</PathToImage>
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt42</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt43</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1080</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>0</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt44</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt45</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt46</BtnName>
+    <State>2</State>
+    <ShortPath>n\man6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man6.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt47</BtnName>
+    <State>2</State>
+    <ShortPath>amboo6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo6.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt48</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt49</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt50</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt51</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt52</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>190</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt53</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>190</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt54</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>280</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt55</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>280</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt56</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>100</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt57</BtnName>
+    <State>1</State>
+    <ShortPath>dSouth</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windSouth.png</PathToImage>
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt58</BtnName>
+    <State>2</State>
+    <ShortPath>amboo8</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo8.png</PathToImage>
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt59</BtnName>
+    <State>2</State>
+    <ShortPath>n\man4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man4.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt60</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt61</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt62</BtnName>
+    <State>0</State>
+    <ShortPath>nWhite</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonWhite.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt63</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt64</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt65</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1080</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt66</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>460</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt67</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>460</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt68</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>550</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt69</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>550</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt70</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>170</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt71</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>240</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt72</BtnName>
+    <State>2</State>
+    <ShortPath>n\man3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man3.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt73</BtnName>
+    <State>2</State>
+    <ShortPath>seasons</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\seasons\Summer.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt74</BtnName>
+    <State>2</State>
+    <ShortPath>n\man4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man4.png</PathToImage>
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt75</BtnName>
+    <State>2</State>
+    <ShortPath>amboo8</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo8.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt76</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>940</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt77</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>1010</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>1</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt78</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin7</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin7.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt79</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin9</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin9.png</PathToImage>
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt80</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt81</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt82</BtnName>
+    <State>2</State>
+    <ShortPath>n\pin6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin6.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt83</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt84</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt85</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt86</BtnName>
+    <State>2</State>
+    <ShortPath>flowers</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\flowers\Plum.png</PathToImage>
+    <CoordonateLeftFromMargin>310</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt87</BtnName>
+    <State>2</State>
+    <ShortPath>n\man6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man6.png</PathToImage>
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt88</BtnName>
+    <State>1</State>
+    <ShortPath>n\man3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man3.png</PathToImage>
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt89</BtnName>
+    <State>2</State>
+    <ShortPath>n\man1</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man1.png</PathToImage>
+    <CoordonateLeftFromMargin>870</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>2</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt90</BtnName>
+    <State>2</State>
+    <ShortPath>amboo1</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo1.png</PathToImage>
+    <CoordonateLeftFromMargin>345</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt91</BtnName>
+    <State>1</State>
+    <ShortPath>n\man2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man2.png</PathToImage>
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt92</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt93</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>835</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt94</BtnName>
+    <State>2</State>
+    <ShortPath>dSouth</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windSouth.png</PathToImage>
+    <CoordonateLeftFromMargin>345</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt95</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt96</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt97</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>835</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt98</BtnName>
+    <State>1</State>
+    <ShortPath>seasons</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\seasons\Spring.png</PathToImage>
+    <CoordonateLeftFromMargin>345</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt99</BtnName>
+    <State>1</State>
+    <ShortPath>nGreen</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonGreen.png</PathToImage>
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt100</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt101</BtnName>
+    <State>2</State>
+    <ShortPath>amboo4</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo4.png</PathToImage>
+    <CoordonateLeftFromMargin>835</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>3</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt102</BtnName>
+    <State>1</State>
+    <ShortPath>n\man6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man6.png</PathToImage>
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt103</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt104</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt105</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt106</BtnName>
+    <State>2</State>
+    <ShortPath>amboo2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo2.png</PathToImage>
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt107</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt108</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt109</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt110</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>380</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt111</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt112</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt113</BtnName>
+    <State>2</State>
+    <ShortPath>n\man2</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man2.png</PathToImage>
+    <CoordonateLeftFromMargin>800</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>4</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt114</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>415</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt115</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>765</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt116</BtnName>
+    <State>2</State>
+    <ShortPath>amboo3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\bamboo\bamboo3.png</PathToImage>
+    <CoordonateLeftFromMargin>415</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt117</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>765</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt118</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>415</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt119</BtnName>
+    <State>2</State>
+    <ShortPath>nWhite</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonWhite.png</PathToImage>
+    <CoordonateLeftFromMargin>765</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>5</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt120</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt121</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt122</BtnName>
+    <State>2</State>
+    <ShortPath>gonRed</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonRed.png</PathToImage>
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt123</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt124</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>450</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt125</BtnName>
+    <State>2</State>
+    <ShortPath>n\man6</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\man\man6.png</PathToImage>
+    <CoordonateLeftFromMargin>730</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>6</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt126</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt127</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt128</BtnName>
+    <State>2</State>
+    <ShortPath>gonRed</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\dragons\dragonRed.png</PathToImage>
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt129</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt130</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>485</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt131</BtnName>
+    <State>1</State>
+    <ShortPath>ndEast</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\winds\windEast.png</PathToImage>
+    <CoordonateLeftFromMargin>695</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>7</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt132</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt133</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt134</BtnName>
+    <State>1</State>
+    <ShortPath>n\pin3</ShortPath>
+    <PathToImage>C:\recovery\Vlad\JohnAbbot\IPD_Class_Lessons\Course13\MahjongGame\MahjongImages\classicSet\pin\pin3.png</PathToImage>
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt135</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt136</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>520</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt137</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>660</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>8</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt138</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt139</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>100</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt140</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt141</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>370</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt142</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>555</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+  <OneTile>
+    <BtnName>bt143</BtnName>
+    <State>0</State>
+    <ShortPath />
+    <PathToImage />
+    <CoordonateLeftFromMargin>625</CoordonateLeftFromMargin>
+    <CoordonateTopFromMargin>640</CoordonateTopFromMargin>
+    <LayerNumber>9</LayerNumber>
+  </OneTile>
+</ArrayOfOneTile>

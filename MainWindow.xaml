@@ -1,0 +1,106 @@
+﻿<Window x:Name="MainMenuWindow" x:Class="MahjongGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mahjong Solitaire game from Edward and Vladimir" Height="953.731" Width="1450.507" BorderThickness="5" 
+        WindowStyle="ThreeDBorderWindow" MinWidth="200" MinHeight="150" Background="{x:Null}" ScrollViewer.HorizontalScrollBarVisibility="Visible" 
+        ScrollViewer.CanContentScroll="True" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" 
+        VerticalAlignment="Center" WindowState="Maximized">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="Auto">
+            <MenuItem x:Name="menuMainFile" Header="File">
+                <MenuItem x:Name="menuNew" Header="New game" HorizontalAlignment="Left" Width="170"  Click="menuNew_Click"/>
+                <Separator HorizontalAlignment="Left" Width="170"/>
+                <MenuItem x:Name="menuOpen" Header="Open game" HorizontalAlignment="Left" Width="170" Click="menuOpen_Click"/>
+                <MenuItem x:Name="menuSaveAs" Header="Save" HorizontalAlignment="Left" Width="170" Click="menuSaveAs_Click"/>
+                <Separator HorizontalAlignment="Left" Width="170"/>
+                <MenuItem x:Name="menuExit" Header="Exit" HorizontalAlignment="Left" Width="170" Click="menuExit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuMainSettings" Header="Settings">
+                <MenuItem x:Name="menuBackground" Header="Change Background" HorizontalAlignment="Left" Width="210" Click="menuBackground_Click"/>
+                <MenuItem x:Name="menuSetImages" Header="Change set of Images" HorizontalAlignment="Left" Width="210" Click="menuSetImages_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuMainOptions" Header="Options">
+                <MenuItem x:Name="menuUndo" Header="Undo" HorizontalAlignment="Left" Width="145" Click="buttonUndo_Click" IsEnabled="False"/>
+                <MenuItem x:Name="menuHint" Header="Hint" HorizontalAlignment="Left" Width="145" Click="buttonHint_Click" IsEnabled="False"/>
+                <MenuItem x:Name="menuShuffle" Header="Shuffle" HorizontalAlignment="Left" Width="145" Click="buttonShuffle_Click" IsEnabled="False"/>
+                <MenuItem x:Name="menuReplay" Header="Replay" HorizontalAlignment="Left" Width="145" Click="menuReplay_Click" IsEnabled="False"/>
+            </MenuItem>
+            <MenuItem x:Name="menuMainHelp" Header="Help" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Click="menuMainHelp_Click"/>
+        </Menu>
+        <Grid x:Name="gridStructureClassic" HorizontalAlignment="Left" Height="857" Margin="26,28,0,0" VerticalAlignment="Top" Width="1389" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True">
+            <Label x:Name="lblMoves" Content="Available moves:" HorizontalAlignment="Left" Margin="159,781,0,0" VerticalAlignment="Top" Width="155" FontSize="22" FontFamily="Monotype Corsiva" Foreground="#FF0E900E" Visibility="Visible" Height="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEAF327" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <Label x:Name="lblMovesShow" Content="7" HorizontalAlignment="Left" Margin="314,781,0,0" VerticalAlignment="Top" Width="75" FontSize="24" FontFamily="Monotype Corsiva" FontWeight="Bold" Foreground="#FF0E900E" Height="48" HorizontalContentAlignment="Center" Padding="5,4,10,3" IsEnabled="False" VerticalContentAlignment="Center" Visibility="Visible">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEAF327" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <Button x:Name="buttonShuffle" Content="Shuffle" HorizontalAlignment="Left" Margin="421,781,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.478,1.831" Height="48" Foreground="#FF0B0B9C" FontSize="22" FontFamily="Monotype Corsiva" FontWeight="Bold" BorderThickness="2,1" Click="buttonShuffle_Click" Visibility="Visible" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                <Button.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF18D80F" Offset="1"/>
+                        <GradientStop Color="#FFE2E214"/>
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Button x:Name="buttonUndo" Content="Undo" HorizontalAlignment="Left" Margin="568,781,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.478,1.831" Height="48" Foreground="#FF0B0B9C" FontSize="22" FontFamily="Monotype Corsiva" FontWeight="Bold" BorderThickness="2,1" Visibility="Visible" Click="buttonUndo_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False">
+                <Button.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF18D80F" Offset="1"/>
+                        <GradientStop Color="#FFE2E214"/>
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Label x:Name="lblSteps" Content="Matched pairs (# of shuffles) :" HorizontalAlignment="Left" Margin="846,781,0,0" VerticalAlignment="Top" Width="251" FontSize="22" FontFamily="Monotype Corsiva" Foreground="#FF0E900E" Visibility="Visible" Height="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEAF327" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <Label x:Name="lblStepsShow" Content="0 (0)" HorizontalAlignment="Left" Margin="1096,781,0,0" VerticalAlignment="Top" Width="75" FontSize="24" FontFamily="Monotype Corsiva" FontWeight="Bold" Foreground="#FF0E900E" Height="48" HorizontalContentAlignment="Center" Padding="5,4,10,3" IsEnabled="False" VerticalContentAlignment="Center" Visibility="Visible">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFEAF327" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <Button x:Name="buttonHint" Content="Hint" HorizontalAlignment="Left" Margin="718,781,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.478,1.831" Height="48" Foreground="#FF0B0B9C" FontSize="22" FontFamily="Monotype Corsiva" FontWeight="Bold" BorderThickness="2,1" Visibility="Visible" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="True" Click="buttonHint_Click">
+                <Button.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF18D80F" Offset="1"/>
+                        <GradientStop Color="#FFE2E214"/>
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Button x:Name="buttonTest" Content="Test strategy" HorizontalAlignment="Left" Margin="1212,781,0,0" VerticalAlignment="Top" Width="167" RenderTransformOrigin="0.478,1.831" Height="48" Foreground="#FF0B0B9C" FontSize="22" FontFamily="Monotype Corsiva" FontWeight="Bold" BorderThickness="2,1" Visibility="Visible" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="True" Click="buttonTest_Click">
+                <Button.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF18D80F" Offset="1"/>
+                        <GradientStop Color="#FFE2E214"/>
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <ContextMenuService.ContextMenu>
+                <ContextMenu Name="cm">
+                    <MenuItem Header="Button" />
+                    <MenuItem Header="ImagePath"/>
+                    <Separator/>
+                    <MenuItem Header="State" />
+                    <MenuItem Header="Layer" />
+                </ContextMenu>
+            </ContextMenuService.ContextMenu>
+        </Grid>
+    </Grid>
+</Window>

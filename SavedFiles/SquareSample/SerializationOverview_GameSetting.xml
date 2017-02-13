@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Structure>Square</Structure>
+  <BackgroundCode>Game_of_thrones.jpg</BackgroundCode>
+  <SetOfImages>antiqueSet</SetOfImages>
+  <Complexity>Hard. Unavailable tiles are hidden</Complexity>
+</GameSetting>

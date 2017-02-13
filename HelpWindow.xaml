@@ -1,0 +1,18 @@
+﻿<Window x:Class="MahjongGame.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HelpWindow" WindowStartupLocation="Manual" Height="714.627" Width="975">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/MahjongGame;component/MahjongImages/Backgrounds/Standard.jpg" Stretch="None"/>
+        </Grid.Background>
+        <Label x:Name="titleLBL"  Content="About Mahjong Solitaire" HorizontalAlignment="Left" Margin="271,10,0,0" VerticalAlignment="Top" FontSize="42" FontFamily="Monotype Corsiva" FontWeight="Bold"/>
+        <TextBox x:Name="txtBoxHelpWindow" HorizontalAlignment="Center" Margin="10,85,10,10" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="20" HorizontalScrollBarVisibility="Auto">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/MahjongGame;component/MahjongImages/Backgrounds/Standard.jpg" Stretch="None"/>
+            </TextBox.Background>
+        </TextBox>
+
+    </Grid>
+</Window>
